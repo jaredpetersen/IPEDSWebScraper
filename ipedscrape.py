@@ -116,7 +116,7 @@ if __name__ == '__main__':
      # Finish writing the navigation bar to the file
      html_file.write('</h2>\n<br />\n')
      # Append the link to top to the write_list
-     write_list.append('<br /><a href="#top"></a><br /><br />')
+     write_list.append('<br /><a href="#top">TOP</a><br /><br />')
      # Write the data tables to the file
      html_file.writelines(write_list)
 
